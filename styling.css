@@ -1,0 +1,169 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+/*Background Image*/
+body{
+    font-family: 'Original Surfer', cursive;
+    background: url("image3.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*Style Jumbotron*/
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 2.5px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+/*buttons*/
+.signup{
+    margin-top: 50px;  
+    margin-bottom: 50px;
+}
+
+.btn-success{
+    background-color: rgba(114,192,35,0.8);   
+}
+
+.btn-success:hover{
+    background-color: rgb(114,192,35);   
+}
+.ct{
+    color: white;
+}
+/*Style the footer*/
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/*Navigation bar*/
+.navbar-default, .footer {
+  background-color: #ff8080;
+  border-color: #ff4d4d;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ff4d4d), to(#ff8080));
+  background-image: -webkit-linear-gradient(top, #ff4d4d, 0%, #ff8080, 100%);
+  background-image: -moz-linear-gradient(top, #ff4d4d 0%, #ff8080 100%);
+  background-image: linear-gradient(to bottom, #ff4d4d 0%, #ff8080 100%);
+  background-repeat: repeat-x;
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff89bfdb', endColorstr='#ff62aacf', GradientType=0);*/
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-nav{
+    text-decoration-color: powderblue;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+.navbar-default{
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li:last-child > a {
+  border-right: 1px solid #ff0000;
+}
+navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  border-left: 1px solid #cc0000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c0c0c0;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #c0c0c0;
+  background-color: #ff3333;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ff3333), to(#e60000));
+  background-image: -webkit-linear-gradient(top, #ff3333, 0%, #e60000, 100%);
+  background-image: -moz-linear-gradient(top, #ff3333 0%, #e60000 100%);
+  background-image: linear-gradient(to bottom, #ff3333 0%, #e60000 100%);
+  background-repeat: repeat-x;
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff499cc7', endColorstr='#ff70b1d3', GradientType=0);*/
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #cc0000;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-default .navbar-nav > .open > a{
+    background-color: #ff3333;
+    color: #ffffff;
+}
+.navbar-default.navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #ff3333;
+  color: #c0c0c0;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #ff3333;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #c0c0c0;
+}
